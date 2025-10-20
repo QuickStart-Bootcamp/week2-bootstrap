@@ -1,0 +1,61 @@
+* {
+  margin:0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+.line {
+  border-bottom: 1px solid rgb(206, 206, 206);
+  margin-left:30px;
+  margin-right: 30px;
+  margin: 0 
+}
+
+.banner {
+  display:flex;
+  background-image: url('../images/yoga-class.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner_title {
+  font-family: "Big Shoulders Inline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  /* font-size: 150px; */
+  font-size: calc(4rem + 2vw);
+  text-transform: uppercase;
+}
+
+.main_title {
+  font-family: "Roboto", sans-serif;
+  font-size: calc(1.375rem + 1vw);
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.yogaClass {
+  justify-content: center;
+  text-align: center;
+}
+
+.yogaClass_heading {
+  font-size: 1.25rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin: 1rem 0;
+}
